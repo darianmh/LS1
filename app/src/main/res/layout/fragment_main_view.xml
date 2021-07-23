@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTxtView"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/title"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_info_slogan"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:background="#00FFFFFF"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/slogan"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/shortDescription"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/txt_input_link"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white"
+                app:boxCornerRadiusBottomEnd="50dp"
+                app:boxCornerRadiusBottomStart="50dp"
+                app:boxCornerRadiusTopEnd="50dp"
+                app:boxCornerRadiusTopStart="50dp"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeErrorColor="@color/white"
+                app:boxStrokeWidth="5dp"
+                app:counterTextColor="@color/white"
+                app:helperTextTextColor="@color/white"
+                app:hintTextColor="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/linkHint"
+                    android:inputType="textUri"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textColorHighlight="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textColorLink="@color/white"
+                    android:textDirection="ltr"
+                    app:boxStrokeColor="@color/white"
+                    app:textInputLayoutFocusedRectEnabled="true" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/main_background_tint"
+                android:color="@color/white"
+                android:text="@string/btnStart"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                android:textColorHint="@color/white"
+                android:textColorLink="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt_shortLink"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

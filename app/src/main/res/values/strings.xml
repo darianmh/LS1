@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LS1</string>
+    <string name="title">لینک دات آی آر</string>
+    <string name="shortDescription">کوتاه کننده لینک</string>
+    <string name="slogan">مختصر و مفید</string>
+    <string name="linkHint">لینک شما</string>
+    <string name="btnStart">دریافت لینک</string>
+    <string name="shortLink">لینک کوتاه</string>
+    <string name="btn_site">سایت</string>
+    <string name="btn_info">درباره</string>
+    <string name="btn_statics">آمار</string>
+    <string name="problem">مشکلی پیش آمده است.</string>
+    <string name="not_found">مقدار مورد نظر یافت نشد.</string>
+    <string name="link_ready">لینک شما آماده است</string>
+    <string name="loadingLink">در حال دریافت…</string>
+    <string name="url">https://ls1.ir</string>
+    <string name="linkTxt">link</string>
+    <string name="linkCopied">لینک کپی شد.</string>
+    <string name="about_txt">لینک دات آی آر محصولی ساده و روان برای کوتاه سازی لینک هاست. برای دریافت لینک کوتاه در صفحه اول نرم افزار لینک اصلی وارد کرده. سپس بعد از فشرده دکمه (دریافت لینک). می توانید لینک خود را از زیر دکمه کپی کنید. همچنین برای مشاهده آمار لینک شده، می توانید از قسمت (آمار) با وارد کرد خلاصه لینک یا قرار دادن علامت $ بعد از آدرس لینک کوتاه شده در مرورگر        آمار مربوطه را مشاهده نمایید.</string>
+    <string name="double_back_exit">Please click BACK again to exit</string>
+    <string name="short_link">کد لینک شما</string>
+    <string name="show_statics">نمایش آمار</string>
+    <string name="main_link">لینک اصلی</string>
+    <string name="view_count">تعداد بازدید</string>
+    <string name="zero">0</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_fragmentLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="613dp"
+            android:id="@+id/main_fragmentHolder"
+            android:orientation="vertical">
+
+            <fragment
+                android:id="@+id/fragment_mainView"
+                android:name="com.darian.ls1.MainView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_siteUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/main_background_tint"
+                android:text="@string/btn_site"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_about"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/main_background_tint"
+                android:text="@string/btn_info"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_statics"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/main_background_tint"
+                android:text="@string/btn_statics"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/app_name" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
